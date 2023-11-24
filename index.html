@@ -3,17 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Tic Tac Toe</title>
+    <title>My First HTML Page</title>
+    <style>
+        header {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        img {
+            width: 25%;
+            height: auto;
+            display: block;
+            margin-right: 20px;        }
+        footer{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <div class="game-container">
-        <div class="board" id="board">
-            <!-- The board cells will be dynamically generated using JavaScript -->
-        </div>
-        <div class="status" id="status">Player X's turn</div>
-        <button class="reset-btn" onclick="resetGame()">Reset Game</button>
-    </div>
-    <script src="script.js"></script>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <section>
+        <!-- Image under  header -->
+    <img src=ziyi_profile_img.jpg alt="Placeholder Image">
+    </section>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="tic_tac_toe.html">TicTacToe game</a></li>
+
+        </ul>
+    </nav>
+
+    <section>
+        <h2>About Us</h2>
+        <p>欢迎来到子逸的频率.</p>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>Email: 18610805870@163.com</p>
+        <p>Phone: 186 1080 5870</p>
+        
+        
+        
+    </section>
+
+   
+
+    <footer>
+
+        <p>&copy; 2023 My Website. All rights reserved.
+    </footer>
+
 </body>
 </html>
